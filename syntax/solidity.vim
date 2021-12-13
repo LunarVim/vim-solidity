@@ -139,6 +139,7 @@ hi def link   solFuncModifier     Keyword
 hi def link   solFuncModCustom    Keyword
 hi def link   solFuncCall         Function
 hi def link   solFuncReturn       Keyword
+hi def link   solFuncBody         Variable
 
 syn region    solCallOptions      start=/{/ end=/}/ contained contains=solString,solFuncCall,solConstant,solNumber,solMethod,solTypeCast,solComma,solOperator,solCallOptionKey transparent nextgroup=solFuncCallParens
 syn keyword   solCallOptionKey    gas value
