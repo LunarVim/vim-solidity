@@ -228,7 +228,7 @@ hi def link   solAssemblyBlock    PreProc
 hi def link   solAssemblyName     Special
 hi def link   solAssemblyOperator Operator
 hi def link   solAssemblyLet      Keyword
-hi def link   solAssemblyMethod   Special
+hi def link   solAssemblyMethod   Function
 hi def link   solAssemblyConst    Constant
 hi def link   solAssemblyCond     Conditional
 
@@ -239,7 +239,7 @@ syn keyword   solMethod           nextgroup=solMethodParens skipwhite skipempty
       \ blockhash require revert assert keccak256 sha256
       \ ripemd160 ecrecover addmod mullmod selfdestruct
 
-hi def link   solMethod           Special
+hi def link   solMethod           Function
 
 " Miscellaneous
 syn keyword   solRepeat           do
