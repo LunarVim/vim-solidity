@@ -164,10 +164,10 @@ syn match     solLibName          /[a-zA-Z_][0-9a-zA-Z_]*\s*\zefor/ contained
 
 hi def link   solAbstract         Special
 hi def link   solContract         Define
-hi def link   solContractName     Function
+hi def link   solContractName     Type
 hi def link   solInheritor        Keyword
 hi def link   solLibUsing         Special
-hi def link   solLibName          Type
+hi def link   solLibName          Keyword
 
 " Events
 syn match     solEvent            /\<event\>/ nextgroup=solEventName,solEventParams skipwhite
