@@ -48,6 +48,7 @@ syn match     solCustomType       skipempty skipwhite nextgroup=solStorageType,s
 hi def link   solMapping          Define
 hi def link   solEnum             Define
 hi def link   solStruct           Define
+hi def link   solCustomType       Type
 
 " Numbers
 syntax match  solNumber           '\v0x\x+>'
