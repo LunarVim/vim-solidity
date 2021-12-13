@@ -278,8 +278,8 @@ syn match     solTypeCast         /\<string\ze\s*(/ nextgroup=solTypeCastParens 
 syn match     solTypeCast         /\<bool\ze\s*(/ nextgroup=solTypeCastParens skipwhite skipempty
 syn region    solTypeCastParens   start=/(/ end=/)/ contained contains=solMethod,solFuncCall,solString,solConstant,solNumber,solTypeCast,solComma transparent
 
-hi def link   solValueType        Type
-hi def link   solTypeCast         Type
+hi def link   solValueType        Keyword
+hi def link   solTypeCast         Include
 
 " Conditionals
 syn match     solIf               /\<if\>/ contained skipwhite skipempty nextgroup=solIfParens
