@@ -179,7 +179,7 @@ syn keyword   solEmitEvent        emit
 hi def link   solEvent            Define
 hi def link   solEventName        Function
 hi def link   solEventParamMod    Keyword
-hi def link   solEmitEvent        Special
+hi def link   solEmitEvent        Include
 
 " Constants
 syn keyword   solConstant         true false wei szabo finney ether seconds minutes hours days weeks years now super
