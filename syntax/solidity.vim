@@ -87,6 +87,8 @@ syn match     solOperator         '\v\+\='
 syn match     solOperator         '\v-\='
 
 hi def link   solOperator         Operator
+hi def link   solFuncParam        Variable
+
 
 " Functions
 syn keyword   solConstructor      nextgroup=solFuncParam skipwhite skipempty
