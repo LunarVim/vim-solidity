@@ -170,7 +170,7 @@ hi def link   solAbstract         Special
 hi def link   solContract         Define
 hi def link   solContractName     Type
 hi def link   solInheritor        Keyword
-hi def link   solLibUsing         Special
+hi def link   solLibUsing         Keyword
 hi def link   solLibName          Keyword
 
 " Events
@@ -238,7 +238,7 @@ hi def link   solAssemblyConst    Constant
 hi def link   solAssemblyCond     Conditional
 
 " Builtin Methods
-syn keyword   solMethod           delete new var return import
+syn keyword   solException        delete new var return import
 syn region    solMethodParens     start='(' end=')' contains=solString,solConstant,solNumber,solFuncCall,solTypeCast,solMethod,solComma,solOperator contained transparent
 syn keyword   solMethod           nextgroup=solMethodParens skipwhite skipempty
       \ blockhash require revert assert keccak256 sha256
