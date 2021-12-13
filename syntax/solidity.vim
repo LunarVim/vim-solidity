@@ -136,7 +136,7 @@ hi def link   solFallback         Function
 hi def link   solReceive          Function
 hi def link   solFuncName         Function
 hi def link   solFuncModifier     Keyword
-hi def link   solFuncModCustom    Keyword
+hi def link   solFuncModCustom    Type
 hi def link   solFuncCall         Function
 hi def link   solFuncReturn       Include
 hi def link   solFuncBody         Variable
@@ -171,7 +171,7 @@ hi def link   solContract         Define
 hi def link   solContractName     Type
 hi def link   solInheritor        Keyword
 hi def link   solLibUsing         Keyword
-hi def link   solLibName          Keyword
+hi def link   solLibName          Type
 
 " Events
 syn match     solEvent            /\<event\>/ nextgroup=solEventName,solEventParams skipwhite
@@ -181,7 +181,7 @@ syn match     solEventParamMod    /\(\<indexed\>\|\<anonymous\>\)/ contained
 syn keyword   solEmitEvent        emit
 
 hi def link   solEvent            Define
-hi def link   solEventName        Function
+hi def link   solEventName        Tyep
 hi def link   solEventParam       Variable
 hi def link   solEventParamMod    Keyword
 hi def link   solEmitEvent        Include
