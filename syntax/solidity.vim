@@ -181,7 +181,7 @@ syn match     solEventParamMod    /\(\<indexed\>\|\<anonymous\>\)/ contained
 syn keyword   solEmitEvent        emit
 
 hi def link   solEvent            Define
-hi def link   solEventName        Tyep
+hi def link   solEventName        Type
 hi def link   solEventParam       Variable
 hi def link   solEventParamMod    Keyword
 hi def link   solEmitEvent        Include
